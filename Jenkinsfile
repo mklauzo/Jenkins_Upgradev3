@@ -11,6 +11,9 @@ pipeline {
                   steps {
                         echo 'Building Sample Maven Project'
                   }
+                  steps {
+                        echo 'Building Sample Mac Project'
+                  }
             }
             stage('Deploy') {
                   steps {
