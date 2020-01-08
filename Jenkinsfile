@@ -9,11 +9,9 @@ pipeline {
             }
             stage('Build') {
                   steps {
-                        echo 'Building Sample Maven Project'
+                        echo 'Building Sample Maven Project Mac'
                   }
-                  steps {
-                        echo 'Building Sample Mac test Project'
-                  }
+                  
             }
             stage('Deploy') {
                   steps {
