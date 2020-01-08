@@ -12,7 +12,7 @@ pipeline {
                         echo 'Building Sample Maven Project'
                   }
                   steps {
-                        echo 'Building Sample Mac Project'
+                        echo 'Building Sample Mac test Project'
                   }
             }
             stage('Deploy') {
